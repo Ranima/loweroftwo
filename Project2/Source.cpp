@@ -19,5 +19,10 @@ struct rectangle
 };
 
 void main() {
-
+	Player user;
+	user.health = 100;
+	user.name = 0;
+	printf("Give your player a name...\n");
+	scanf_s("%c", user.name);
+	printf("And a score...\n");
 }
